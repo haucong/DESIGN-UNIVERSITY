@@ -149,7 +149,7 @@ nav .fas{
 }
 .course-col{
     flex-basis: 31%;
-    background: #1800ec46;
+    background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -277,7 +277,7 @@ h3{
     text-align: left;
 }
 .testimonial-col i{
-    color: #1800ec46;
+    color: #f44336;
 }
 @media(max-width: 700px){
     .testimonial-col img {
@@ -323,7 +323,7 @@ h3{
 }
 
 .icons i{
-    color: #1800ec91;
+    color: #f44336;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
