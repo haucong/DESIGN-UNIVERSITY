@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUCATION 📖</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css  ">
+</head>
+<body>
+    <!-- HEADER -->
+    <section class="sub-header">
+        <nav>
+            <a href="./index.html"> <img src="./image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+         <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+<!-- blog page content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./image//certificate.jpg" >
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi est tempora 
+                cupiditate aliquid totam ex cum fugit modi deleniti cumque, accusantium, blanditiis odit. 
+                Temporibus cumque dolore laboriosam. Dolor, voluptate corrupti.</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste labore magnam modi ea iusto adipisci eligendi dolorum assumenda facilis enim repudiandae illo nobis,
+                 ut nisi neque voluptate fugit culpa corrupti.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste labore magnam modi ea iusto adipisci
+                eligendi dolorum assumenda facilis enim repudiandae illo nobis,
+                ut nisi neque voluptate fugit culpa corrupti.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste labore magnam modi ea iusto adipisci
+                eligendi dolorum assumenda facilis enim repudiandae illo nobis,
+                ut nisi neque voluptate fugit culpa corrupti.
+                </p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste labore magnam modi ea iusto
+                adipisci eligendi dolorum assumenda facilis enim repudiandae illo nobis,
+                ut nisi neque voluptate fugit culpa corrupti.
+            </p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste labore magnam modi ea iusto
+                adipisci eligendi dolorum assumenda facilis enim repudiandae illo nobis,
+                ut nisi neque voluptate fugit culpa corrupti.
+            </p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea placeholder="Your comment" rows="5"></textarea>
+                    <button class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+             <div>
+                 <span>Data Science</span>
+                 <span>28</span>
+             </div>
+              <div>
+                  <span>Machine</span>
+                  <span>15</span>
+              </div>
+               <div>
+                   <span>Computer Science</span>
+                   <span>34</span>
+               </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda vitae animi quod praesentium omnis facilis
+         <br> repellat delectus hic! Corrupti neque incidunt enim
+        beatae aperiam error ipsam! Voluptas excepturi provident asperiores.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+    </div>
+        <p>Make by
+        <i class="far fa-heart"></i>
+             Conghau
+        </p>
+</section>
+
+
+
+
+<!-- SCRIPT -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+</html>
